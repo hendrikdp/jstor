@@ -1,0 +1,8 @@
+.storage
+.storage2
+.idea
+
+node_modules
+coverage
+
+package-lock.json
