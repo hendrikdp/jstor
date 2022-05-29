@@ -1,6 +1,6 @@
 {
   "name": "jstor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jstor nodejs",
   "main": "index.js",
   "module": "index.js",
