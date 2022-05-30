@@ -4,7 +4,7 @@ export default class{
         this.clear();
         this._globalOptions = options;
         const garbageCollectionInterval = options.garbageCollectionInterval || 120;
-        setInterval(this.garbageCollection, garbageCollectionInterval * 1000);
+        setInterval(this.garbageCollection.bind(this), garbageCollectionInterval * 1000);
     }
 
     garbageCollection(){
